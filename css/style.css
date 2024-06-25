@@ -608,6 +608,9 @@ footer {
     .home{
         background-color: var(--bg-color-01);
     }
+    .header{
+        background-color: var(--bg-color-02);
+    }
 }
 
 #loom-companion-mv3 {
