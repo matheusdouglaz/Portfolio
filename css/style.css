@@ -597,6 +597,12 @@ footer {
     /* Outros estilos do menu hamburguer aqui */
 }
 
+@media (max-width: 589px) {
+    .services {
+        display: none; /* Esconde a seção de serviços */
+    }
+}
+
 #loom-companion-mv3 {
     display: none !important;
   }
