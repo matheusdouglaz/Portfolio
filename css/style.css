@@ -601,6 +601,13 @@ footer {
     .services {
         display: none; /* Esconde a seção de serviços */
     }
+
+    .portfolio{
+        background-color: var(--bg-color-02);
+    }
+    .home{
+        background-color: var(--bg-color-01);
+    }
 }
 
 #loom-companion-mv3 {
