@@ -352,12 +352,15 @@ form textarea{
 
 footer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1.2rem;
+    padding: 0.6rem 1.2rem; /* Reduzindo o padding para diminuir o tamanho */
     background-color: var(--bg-color-01);
-}
+    font-size: 0.9rem; /* Reduzindo o tamanho da fonte para um footer mais compacto */
+    color: var(--text-color-01); /* Definindo cor do texto */
+    text-align: center; /* Centralizando o texto */
+  }
+  
 
 
 .btn {
@@ -593,6 +596,11 @@ footer {
     
     /* Outros estilos do menu hamburguer aqui */
 }
+
+#loom-companion-mv3 {
+    display: none !important;
+  }
+  
 
 
 
